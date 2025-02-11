@@ -1,9 +1,5 @@
 #background {
     height: 725px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 
@@ -57,7 +53,7 @@ h4 {
 }
 
 footer {
-    color: #e6b1b1; 
+    color: #946f6f; 
 }
 
 footer a {
