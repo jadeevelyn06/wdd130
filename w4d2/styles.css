@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5498cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: black;
+}
+
+.quote {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    font-style: italic;
+    color: white;
+}
+
+.author, .position {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.gospel-principles h2 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    color: black;
+}
+
+.inspirational-image {
+    width: 25%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 10px;
+}

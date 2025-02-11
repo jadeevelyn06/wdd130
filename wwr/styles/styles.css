@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcfbfb; 
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+header {
+    background-color: rgba(20, 30, 13, .7);
+}
+
+nav a {
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.icon {
+    width: 80px;
+}
+
+#background {
+    height: 725px;
+    background-color: #f4f4f4;
+}
+
+.msg {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.msg h2 {
+    color: #000;
+}
+
+.msg p {
+    color: #333;
+}
+
+.book, .join {
+    background-color: #f2a200;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: #f29c00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f2a200;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+.rapids-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.rapids-card h2 {
+    color: #f2a200;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+}
+
+.book, .join {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .rapids-card {
+        width: 100%;
+    }
+}
