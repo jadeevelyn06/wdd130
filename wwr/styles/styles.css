@@ -1,7 +1,7 @@
+
 #background {
     height: 725px;
 }
-
 
 body {
     background-color: #ffffff; 
@@ -52,6 +52,7 @@ h4 {
     color: #000000; 
 }
 
+
 .msg h2 {
     color: #000000; 
 }
@@ -79,5 +80,14 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}            
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-                  
+
+
+#hero-msg h1, #hero-msg h4{text-align: center;}
+.button-box{text-align: center;}
+main section{text-align: center;}
