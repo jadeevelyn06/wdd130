@@ -1,173 +1,76 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#background {
+    height: 725px;
 }
 
 body {
-    background-color: #fcfbfb;
-    font-family: Arial, sans-serif;
+    background-color: #fcfbfb; 
 }
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto; 
-  }
-  
-#top-strip {
-    background-color: #dcdcdc;
-    padding: 10px 0;
-    text-align: left;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-    margin-left: 20px;
-}
-
-nav {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: #fcfbfb;
-    text-decoration: none;
-    margin: 0 15px;
+header {
+    background-color:rgba(20,30,13, .7);
 }
 
 nav a:hover {
-    background-color: #555;
-}
+    background-color: black;
+    color: #d9c2a3;
+}   
 
-#hero-img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-
-#hero-msg {
+ 
+nav a {
     text-align: center;
-    font-size: 1.2em;
-    margin: 20px 0;
-}
-
-#hero-msg h1 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-
-.home-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
-.rivers-card, .camping-card, .rapids-card {
-    width: 100px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.card-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+ 
+   
 
 .icon {
-    width: 40px;
-    height: auto;
-    margin-bottom: 5px;
+    width: 80px;
+}
+     
+.home-title {
+    color: #a38f37; 
 }
 
-.rivers-card h2, .camping-card h2, .rapids-card h2 {
-    font-size: 1em;
-    color: #f2a200;
+h4 {
+    color: #534f16; 
 }
 
-.final-img {
-    text-align: center;
-    margin: 20px;
+.book, .join {
+    color: #4e08be; 
+    text-decoration: none;
 }
 
-.final-img img {
-    width: 50%;
-    height: auto;
-}
-
-.msg {
-    background-color: #dcdcdc;
-    padding: 20px;
-    text-align: center;
+.book:hover, .join:hover {
+    color: #d9c2a3; 
 }
 
 .msg h2 {
-    font-size: 1.5em;
+    color: #d3e67f; 
 }
 
 .msg p {
-    color: #333;
-}
-
-.join {
-    background-color: #f2a200;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.join:hover {
-    background-color: #f29c00;
+    color: #8a4360; 
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-top: 2px solid #dcdcdc;
-}
+    color: #8f8249; 
 
-footer p {
-    font-size: 1.2em;
 }
 
 footer a {
-    color: white;
+    color: #d9c2a3; 
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #f2a200;
-    text-decoration: underline;
+    color: #ffffff;
 }
 
+footer p {
+    font-size: 1.2em;
+}    
+ 
 footer p a:hover {
     text-decoration: underline;
-}
-
-@media screen and (max-width: 768px) {
-    .home-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .final-img img {
-        width: 80%;
-    }
-
-    .msg h2 {
-        font-size: 1.2em;
-    }
-
-    .msg p {
-        font-size: 1em;
-    }
-}
+}    
+                      
