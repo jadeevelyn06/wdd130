@@ -9,6 +9,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+  }
+  
 #top-strip {
     background-color: #dcdcdc;
     padding: 10px 0;
