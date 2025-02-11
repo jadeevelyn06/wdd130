@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #474242; 
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -11,13 +11,13 @@ header {
 
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: #856740;
 }   
 
  
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: #573e3e;
     text-decoration: none;
 }    
  
@@ -28,11 +28,11 @@ nav a {
 }
      
 .home-title {
-    color: #a38f37; 
+    color: #000000; 
 }
 
 h4 {
-    color: #534f16; 
+    color: #000000; 
 }
 
 .book, .join {
@@ -41,29 +41,29 @@ h4 {
 }
 
 .book:hover, .join:hover {
-    color: #d9c2a3; 
+    color: #000000; 
 }
 
 .msg h2 {
-    color: #d3e67f; 
+    color: #000000; 
 }
 
 .msg p {
-    color: #8a4360; 
+    color: #000000; 
 }
 
 footer {
-    color: #8f8249; 
+    color: #e6b1b1; 
 
 }
 
 footer a {
-    color: #d9c2a3; 
+    color: #e6b1b1; 
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #ffffff;
+    color: #e6b1b1;
 }
 
 footer p {
