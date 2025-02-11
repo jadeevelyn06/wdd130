@@ -68,8 +68,8 @@ nav a:hover {
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    width: 150px;
-    margin-bottom: 20px;
+    width: 100px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
