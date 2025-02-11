@@ -64,11 +64,13 @@ nav a:hover {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    text-align: center;
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    text-align: center;
     width: 150px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .card-img {
@@ -132,10 +134,6 @@ footer {
     border-top: 2px solid #dcdcdc;
 }
 
-footer .footer-content {
-    margin-top: 10px;
-}
-
 footer p {
     font-size: 1.2em;
 }
@@ -152,7 +150,6 @@ footer a:hover {
 
 footer p a:hover {
     text-decoration: underline;
-
 }
 
 @media screen and (max-width: 768px) {
