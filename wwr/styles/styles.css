@@ -1,32 +1,39 @@
 #background {
     height: 725px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('images/camping.jpg'), url('images/facebook.png'), url('images/fire_icon.png'), url('images/hero.png'), url('images/instagram.png'), url('images/logo.png'), url('images/mountains.jpg'), url('images/oars.png'), url('images/rapids.jpg'), url('images/river_icon.png'), url('images/rivers.jpg'), url('images/twitter.png');
+    background-size: cover;
+    background-position: center;
 }
 
+
 body {
-    background-color: #474242; 
+    background-color: #ffffff; 
 }
+
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: rgba(20, 30, 13, .7);
 }
 
 nav a:hover {
     background-color: black;
     color: #856740;
-}   
+}
 
- 
 nav a {
     text-align: center;
     color: #573e3e;
     text-decoration: none;
-}    
- 
-   
+}
 
 .icon {
     width: 80px;
+    margin: 10px;
 }
-     
+
 .home-title {
     color: #000000; 
 }
@@ -54,7 +61,6 @@ h4 {
 
 footer {
     color: #e6b1b1; 
-
 }
 
 footer a {
@@ -68,9 +74,9 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
-}    
- 
+}
+
 footer p a:hover {
     text-decoration: underline;
-}    
-                      
+}
+                  
