@@ -255,4 +255,86 @@ footer .social img{
         margin-top: 25px;
     }
 }
-            
+
+#history-img {
+    width: 100%;
+}
+
+
+#history {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#history-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+    
+#history-msg {
+    color: white;
+    grid-row: 3/3;
+    grid-column: 1/4;
+}
+#history-msg h1, #history-msg h4{text-align: center;}
+
+    #history {
+        margin-top: 0;
+    }
+    #history-msg {
+        margin-top: 0;
+    }
+    #history-msg h4 {
+        display: none;
+    }
+    #history-msg h1 {
+        color: #6f7364;
+    }
+    .history-title {
+        font-size: 25px;
+    }
+    #jay-img {
+        width: 100%;
+    }
+    #faces {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+        
+    #faces-msg {
+        color: white;
+        grid-row: 3/3;
+        grid-column: 1/4;
+    }
+    #faces {
+            margin-top: 0;
+        }
+     #faces-msg {
+            margin-top: 0;
+        }
+    
+    #faces-msg h2 {
+            color: #6f7364;
+        }
+    .faces-title {
+            font-size: 25px;
+        }
+
+        
+        #container {
+            display: flex;
+            justify-content: flex-end; /* Align items to the right */
+            gap: 20px; /* Adds space between images */
+        }
+        
+        #John, #Jay {
+            flex-shrink: 0; /* Prevents shrinking if the screen gets smaller */
+        }
+        #Jay img {
+            max-width: 200px; /* Adjust width as needed */
+            height: auto; /* Keeps aspect ratio */
+        }
+        #John img {
+            max-width: 150px;
+            height: auto;
+        }
+        
